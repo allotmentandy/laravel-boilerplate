@@ -77,6 +77,7 @@
   "views.backend.section.navigation.sub_header_1": "Management",
   "views.backend.section.navigation.sub_header_2": "Development",
   "views.backend.section.navigation.sub_header_3": "Links",
+  "views.backend.section.navigation.sub_header_4": "Londinium",
   "views.backend.section.navigation.menu_0_1": "Dashboard",
   "views.backend.section.navigation.menu_1_1": "Users",
   "views.backend.section.navigation.menu_1_2": "Membership",
@@ -84,6 +85,10 @@
   "views.backend.section.navigation.menu_2_1": "Log viewer",
   "views.backend.section.navigation.menu_2_2": "Dashboard",
   "views.backend.section.navigation.menu_2_3": "Logs",
+
+  "views.backend.section.navigation.menu_4_1": "Categories",
+  "views.backend.section.navigation.menu_4_2": "Sites",
+
   "**************************** Backend Header *******************": "Backend Header i18n",
   "views.backend.section.header.menu_0": "Log out",
   "**************************** Backend Footer *******************": "Backend Footer i18n",

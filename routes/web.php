@@ -12,6 +12,9 @@
 */
 
 
+Route::get('/', 'HomeController@index');
+
+
 /**
  * Auth routes
  */
@@ -53,6 +56,10 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'namespace' => 'Admin', 'mi
     // Dashboard
     Route::get('/', 'DashboardController@index')->name('dashboard');
 
+    // Londiniun
+    Route::get('londinium/categories', 'LondiniumController@categories')->name('londinium.categories');
+    Route::get('londinium/sites', 'LondiniumController@sites')->name('londinium.sites');
+
     //Users
     Route::get('users', 'UserController@index')->name('users');
     Route::get('users/restore', 'UserController@restore')->name('users.restore');
@@ -67,8 +74,6 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'namespace' => 'Admin', 'mi
     Route::get('dashboard/registration-chart', 'DashboardController@getRegistrationChartData')->name('dashboard.registration.chart');
 });
 
-
-Route::get('/', 'HomeController@index');
 
 /**
  * Membership
